@@ -2,6 +2,51 @@
 #
 # This file will be entirely rewritten each time you exit.
 
+(GimpTemplate "512×512 (512 Texture)"
+    (icon-name "gimp-photo")
+    (width 512)
+    (height 512)
+    (unit pixels)
+    (xresolution 72)
+    (yresolution 72)
+    (resolution-unit inches)
+    (image-type rgb)
+    (precision u8-non-linear)
+    (color-profile NULL)
+    (simulation-profile NULL)
+    (simulation-bpc no)
+    (simulation-intent relative-colorimetric)
+    (fill-type background))
+(GimpTemplate "1024×1024 (1024 Texture)"
+    (icon-name "gimp-photo")
+    (width 1024)
+    (height 1024)
+    (unit pixels)
+    (xresolution 72)
+    (yresolution 72)
+    (resolution-unit inches)
+    (image-type rgb)
+    (precision u8-non-linear)
+    (color-profile NULL)
+    (simulation-profile NULL)
+    (simulation-bpc no)
+    (simulation-intent relative-colorimetric)
+    (fill-type background))
+(GimpTemplate "2048x2048 (2048 Texture)"
+    (icon-name "gimp-photo")
+    (width 2048)
+    (height 2048)
+    (unit pixels)
+    (xresolution 72)
+    (yresolution 72)
+    (resolution-unit inches)
+    (image-type rgb)
+    (precision u8-non-linear)
+    (color-profile NULL)
+    (simulation-profile NULL)
+    (simulation-bpc no)
+    (simulation-intent relative-colorimetric)
+    (fill-type background))
 (GimpTemplate "1280×720 (HD 720p)"
     (icon-name "gimp-video")
     (width 1280)
@@ -17,7 +62,7 @@
     (simulation-bpc no)
     (simulation-intent relative-colorimetric)
     (fill-type background))
-(GimpTemplate "1920×1080 (Full HD 1080p)"
+(GimpTemplate "1920×1080 (FHD 1080p)"
     (icon-name "gimp-video")
     (width 1920)
     (height 1080)
@@ -32,7 +77,7 @@
     (simulation-bpc no)
     (simulation-intent relative-colorimetric)
     (fill-type background))
-(GimpTemplate "2560x1440 (Quad-HD)"
+(GimpTemplate "2560x1440 (QHD 1440p)"
     (icon-name "gimp-video")
     (width 2560)
     (height 1440)
@@ -48,7 +93,7 @@
     (simulation-intent relative-colorimetric)
     (fill-type background)
     (comment "Created with GIMP"))
-(GimpTemplate "3840x2160 (4K UHD)"
+(GimpTemplate "3840x2160 (UHD 2160p)"
     (icon-name "gimp-video")
     (width 3840)
     (height 2160)
@@ -93,6 +138,21 @@
     (simulation-bpc no)
     (simulation-intent relative-colorimetric)
     (fill-type background))
+(GimpTemplate "1920×1080 FHD"
+    (icon-name "gimp-display")
+    (width 1920)
+    (height 1080)
+    (unit pixels)
+    (xresolution 72)
+    (yresolution 72)
+    (resolution-unit inches)
+    (image-type rgb)
+    (precision u8-non-linear)
+    (color-profile NULL)
+    (simulation-profile NULL)
+    (simulation-bpc no)
+    (simulation-intent relative-colorimetric)
+    (fill-type background))
 (GimpTemplate "1920×1200 WUXGA"
     (icon-name "gimp-display")
     (width 1920)
@@ -108,7 +168,7 @@
     (simulation-bpc no)
     (simulation-intent relative-colorimetric)
     (fill-type background))
-(GimpTemplate "2560x1440 QHD"
+(GimpTemplate "2560x1440 QHD 2K"
     (icon-name "gimp-display")
     (width 2560)
     (height 1440)
@@ -138,7 +198,7 @@
     (simulation-bpc no)
     (simulation-intent relative-colorimetric)
     (fill-type background))
-(GimpTemplate "3840×2160 4K UHD"
+(GimpTemplate "3840×2160 UHD 4K"
     (icon-name "gimp-display")
     (width 3840)
     (height 2160)
