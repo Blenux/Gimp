@@ -1,5 +1,5 @@
 # Gimp
-My Gimp Edits
+My Gimp Edits (For Developement Versions)
 
 # To install
 Copy to following paths:
